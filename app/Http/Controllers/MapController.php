@@ -17,4 +17,10 @@ class MapController extends Controller
         return view('cornford.googlmapper.map');*/
         return view('add');
     }
+    
+    
+       public function vendor()
+    {
+        return view('vendor');
+    }
 }
